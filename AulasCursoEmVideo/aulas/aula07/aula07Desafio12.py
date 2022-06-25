@@ -1,5 +1,5 @@
-valor = float(input('Digite um valor para receber um desconto de 5%: '))
+valor = float(input('Digite um valor para receber um desconto de 5%: R$'))
 
-result = valor * 0.5
+result = valor - (valor * 5/100)
 
-print('O valor era de {:.0f} e após o aumento ele ficou {}'.format(valor, result))
+print('O valor era de R${:.0f} e após o desconto ele ficou R${}'.format(valor, result))
