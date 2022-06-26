@@ -1,6 +1,8 @@
-nome = input('Digite seu nome: ')
+nome = input('Digite seu nome: ').strip()
 
 print('Seu nome com todas as letras maiúsculas fica {}'.format(nome.upper()))
 print('seu nome com todas as letras minúsculas fica {}'.format(nome.lower()))
 print('Seu nome tem {} letras'.format(len(nome) - nome.count(' ')))
 print('Seu primeiro nome tem {} letras'.format(len(nome.split()[0])))
+#outra solução é nome.find(' ')
+
