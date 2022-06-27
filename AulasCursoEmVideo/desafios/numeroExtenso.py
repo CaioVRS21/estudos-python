@@ -5,5 +5,5 @@ while True:
     if numVal < 0 or numVal > 20:
         print('[ERRO] Valor inválido tente novamente')
     else:
-        print(numExt[numVal])
         break
+print(numExt[numVal])
