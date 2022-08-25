@@ -7,7 +7,7 @@ int(input('Digite o último valor: ')),
 pares = []
 print(f'O valor 9 apareceu {valores.count(9)} vezes')
 if valores.__contains__(3):
-    print(f'O primeiro número 3 apareceu na posição {valores.index(3)}')
+    print(f'O primeiro número 3 apareceu na posição {valores.index(3)+1}')
 else:
     print('O número 3 não apareceu nenhuma vez')
 for valor in valores:
