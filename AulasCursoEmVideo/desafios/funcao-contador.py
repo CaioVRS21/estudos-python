@@ -23,6 +23,8 @@ def conta():
     inicio = int(input('Ínicio: '))
     fim = int(input('Fim: '))
     passo = int(input('Passo: '))
+    if passo == 0:
+        passo == 1
     print(f'Contagem de {inicio} até {fim} de {passo} em {passo}')
     if inicio > fim:
         while inicio >= fim:
