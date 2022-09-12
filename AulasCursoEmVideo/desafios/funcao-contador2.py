@@ -5,6 +5,8 @@ def conta (i, f, p):
     print('-='*30)
     if p == 0:
         p == 1
+    if p < 0:
+        p *= -1
     if i > f:
         while i >= f:
             sleep(1)
