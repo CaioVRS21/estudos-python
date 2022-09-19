@@ -6,5 +6,9 @@ def dobro(num):
     return num * 2
 
 
-def aumento(num):
-    return num * 1.1
+def aumento(num, taxa):
+    return num + (num * (taxa/100))
+
+
+def diminuir (num, taxa):
+    return num - (num * taxa/100)
